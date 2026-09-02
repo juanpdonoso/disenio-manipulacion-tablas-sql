@@ -31,10 +31,12 @@ Se documentaron intencionalmente dos escenarios de fallo:
 * **Error de Dominio:** Inserción de categoría no permitida (`'Internacional'`), bloqueada por la restricción `CHECK`.
 
 ## 📁 Estructura del Repositorio
+```text
 ├── sql/
 │   ├── arquitectura_base.sql                  # Esquema base de la base de datos
 │   └── prueba_disenio_manipulacion_sql.sql    # Script principal con solución DDL/DML
 └── README.md                                  # Documentación técnica
+```
 
 ---
 👤 **Autor:** Juan Pablo Donoso Aedo | [LinkedIn](https://www.linkedin.com/in/juanpdonoso/)
